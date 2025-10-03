@@ -7,9 +7,9 @@ This project analyzes roadway volume and speed data for a single corridor using 
 - **File parsing and validation:** accepts multiple CSV inputs; examples include both *clean* and *intentionally bad* inputs for testability.
 - **Result reporting:** prints computed aggregates (e.g., volume totals/averages, speed averages).
 
-## Repo layout
+## Layout
 ```
-project-2/
+roadtrafficanalysis/
 ├─ src/
 │  └─ main/java/
 │     ├─ Project2.java
@@ -77,7 +77,7 @@ data/Speed_Data.csv
 4. **Add 2–3 tiny JUnit tests** (parse OK, bad date, bad number).
 5. **Replace debug prints** with consistent output formatting.
 
-## What I learned (template)
+## What I learned
 - Designed basic data model for traffic sensors and sections.
 - Implemented CSV parsing with validation and useful error messages.
 - Computed aggregates and demonstrated handling of edge cases.
